@@ -5,7 +5,7 @@ from setuptools import find_packages
 import cmsplugin_zinnia
 
 setup(
-    name='cmsplugin-zinnia',
+    name='cmsplugin_zinnia',
     version=cmsplugin_zinnia.__version__,
 
     description='Django-CMS plugins for django-blog-zinnia',

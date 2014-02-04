@@ -4,10 +4,10 @@ from south.v2 import SchemaMigration
 
 from django.db import models
 
-from zinnia.migrations import user_name
-from zinnia.migrations import user_table
-from zinnia.migrations import user_orm_label
-from zinnia.migrations import user_model_label
+from . import user_name
+from . import user_table
+from . import user_orm_label
+from . import user_model_label
 
 
 class Migration(SchemaMigration):
